@@ -70,6 +70,14 @@ header {
   background-color: transparent;
 }
 
+.menu-icon {
+  color: white;
+  float: right;
+  font-size: 25px;
+  padding: 21px 0;
+  display: none;
+}
+
 .menu a {
   line-height: 65px;
   padding: 0px 20px;
