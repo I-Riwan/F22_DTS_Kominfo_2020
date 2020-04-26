@@ -86,10 +86,22 @@ header {
   font-family: Arial,sans-serif;
   font-weight: normal;
   border-bottom: 2px solid #14A2EB;
+  margin-bottom: 10px;
   width: 13%;
   margin-right: auto;
   margin-left: auto;
   color: white;
+  animation-name: xtrnim;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+
+}
+@keyframes xtrnim{
+    0% {color:red;}
+    25%  {color:lime;}
+    50%  {color:blue;}
+    75%  {color:yellow;}
+    100% {color:red;}
 }
 .xtra1-konten{
   font-size: 20px;
