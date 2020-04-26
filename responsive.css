@@ -1,6 +1,6 @@
 /* Untuk Tablet */
 @media all and (max-width: 1000px){
-	.xtra1-top h2{
+	.xtra1-top h2 {
 		width: 28%;
 	}
 
@@ -9,7 +9,13 @@
 
 /* Untuk Smartphone */
 @media all and (max-width: 670px){
-	.xtra1-top h2{
+	.menu {
+		display : none;
+	}
+	.menu-icon {
+		display: block;
+	}
+	.xtra1-top h2 {
 		width: 55%;
 	}
 }
