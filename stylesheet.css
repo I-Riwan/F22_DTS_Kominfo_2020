@@ -8,7 +8,6 @@
 body {
   margin: 0;
   padding: 0;
-  display: flex;
   justify-content: center;
   align-items: center;
   min-height: 100vh;
@@ -86,8 +85,14 @@ header {
   float: left;
 }
 /*--------Extra 1 ---------*/
-.xtra1{
+.xtra{  
+  margin-top: 100px;
+  height: auto;
+  position: relative;
   max-width: 100%;
+}
+.xtra1{
+  
 }
 .xtra1-top h2{
   text-align: center;
@@ -149,6 +154,9 @@ header {
   top: 140px;
   width: 100%;
   color: yellow;
+}
+.clear{
+  clear: both;
 }
 /*style contact form*/
 
