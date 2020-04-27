@@ -126,5 +126,27 @@ header {
   color:#14A2EB;
 }
 
+/* ---------- xtra2 -------------*/
+.xtra2 {
+  float: left;
+  width: 20%;
+}
 
+.xtra2-icongbr {
+  width: 200px;
+}
 
+.xtra {
+  text-align: center;
+}
+
+.xtra2-icon {
+  position: relative;
+}
+
+.xtra2-icon p {
+  position: absolute;
+  top: 140px;
+  width: 100%;
+  color: yellow;
+}
