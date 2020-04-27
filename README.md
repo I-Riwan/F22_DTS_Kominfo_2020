@@ -1,4 +1,5 @@
 # F22_DTS_Kominfo_2020
 
-test = aziz
-test = lucky
+## #abseniseng
+### 1. Aziz
+### 2. Lucky
