@@ -1,6 +1,12 @@
 /* Untuk Tablet */
 @media all and (max-width: 1000px){
-	.xtra1-top h2 {
+	.menu {
+    display: none;
+  }
+  .menu-icon {
+    display: block;
+  }
+  .xtra1-top h2 {
 		width: 25%;
 	}
 	.xtra1{
@@ -13,7 +19,7 @@
 
 /* Untuk Smartphone */
 @media all and (max-width: 670px){
-	.menu {
+  .menu {
 		display: none;
 	}
 	.menu-icon {
@@ -39,7 +45,7 @@
 	 font-size: small;
    	}
   	input, textarea {
-	width: 100%;
+	width: 80%;
 	font-size: 12px;
   	}
           /* Untuk  footer  Smartphone */
