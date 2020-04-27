@@ -206,6 +206,16 @@ header {
   margin-top: 70px;
   margin-bottom: 15px;
   color: white;
+  animation-name: xtrnimm;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+@keyframes xtrnimm{
+    0% {color:lime;}
+    25%  {color:blue;}
+    50%  {color:yellow;}
+    75%  {color:white;}
+    100% {color:red;}
 }
 
 .xtra2-icongbr {
