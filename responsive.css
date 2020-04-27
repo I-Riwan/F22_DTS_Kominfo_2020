@@ -28,4 +28,26 @@
 	.xtra2{
 		width: 100%;
 	}
+	      /* Untuk contact form Smartphone */
+	.contact-form {
+	width: 100%;
+  	}
+  	.contact-form h1 {
+	font-size: small;
+  	}
+   	.contact-form p {
+	 font-size: small;
+   	}
+  	input, textarea {
+	width: 100%;
+	font-size: 12px;
+  	}
+          /* Untuk  footer  Smartphone */
+  
+	footer {
+	  text-align: center;
+	}
+	footer img {
+	  width: 30%;
+	}
 }
