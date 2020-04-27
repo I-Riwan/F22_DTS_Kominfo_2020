@@ -132,9 +132,18 @@ header {
 }
 
 /* ---------- xtra2 -------------*/
+
 .xtra2 {
   float: left;
   width: 20%;
+  margin: 50px 0;
+}
+
+.xtra2-top {
+  font-size: 50px;
+  margin-top: 70px;
+  margin-bottom: 15px;
+  color: white;
 }
 
 .xtra2-icongbr {
@@ -142,6 +151,7 @@ header {
 }
 
 .xtra {
+  padding-top: 100px;
   text-align: center;
 }
 
@@ -156,9 +166,16 @@ header {
   color: yellow;
 }
 
-.h2 {
-  color: white;
-  height: 500px;
+.xtra2-icon img {
+  cursor:pointer;
+  -webkit-transition:all .4s linear;
+  transition:all .4s linear;
+}
+
+.xtra2-icon:hover img {
+  -ms-transform:scale(1.2);
+  -webkit-transform:scale(1.2);
+  transform:scale(1.2);
 }
 
 
