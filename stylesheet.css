@@ -207,7 +207,7 @@ header {
   margin-bottom: 15px;
   color: white;
   animation-name: xtrnimm;
-  animation-duration: 4s;
+  animation-duration: 5s;
   animation-iteration-count: infinite;
 }
 @keyframes xtrnimm{
