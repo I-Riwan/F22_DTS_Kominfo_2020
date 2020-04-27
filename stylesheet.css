@@ -24,7 +24,7 @@ a {
   text-transform: uppercase;
   letter-spacing: 4px;
   text-decoration: none;
-  font-size: 24px;
+  font-size: 15px;
   overflow: hidden;
   transition: 0.2s;
 }
@@ -73,7 +73,7 @@ header {
 .menu-icon {
   color: white;
   float: right;
-  font-size: 25px;
+  font-size: 20px;
   padding: 21px 0;
   display: none;
 }
