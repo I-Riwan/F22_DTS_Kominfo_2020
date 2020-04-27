@@ -206,6 +206,16 @@ header {
   margin-top: 70px;
   margin-bottom: 15px;
   color: white;
+  animation-name: xtrnimm;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+@keyframes xtrnimm{
+    0% {color:lime;}
+    25%  {color:blue;}
+    50%  {color:yellow;}
+    75%  {color:white;}
+    100% {color:red;}
 }
 
 .xtra2-icongbr {
@@ -266,7 +276,7 @@ header {
   border-top: 2px solid #dee7ec;
   padding-top: 100px;
   text-align: center;
-  background-color: #17202a;
+  background-color: #031321;
 }
 .contact-form h1 {
   padding-bottom: 15px;
@@ -309,7 +319,7 @@ footer img {
 }
 footer {
   border-top: 2px solid #dee7ec;
-  background-color: #17202a;
+  background-color: #031321;
   padding-top: 20px;
   padding-bottom: 20px;
 }
