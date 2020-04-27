@@ -225,6 +225,9 @@ header {
   top: 140px;
   width: 100%;
   color: yellow;
+  font-style: bold;
+  font-size: 18px;
+  text-shadow: 3px 2px 1px black;
 }
 
 .xtra2-icon img {
@@ -239,6 +242,20 @@ header {
   transform:scale(1.2);
 }
 
+.xtra2-konten {
+  color: white;
+  margin-top: 12px;
+}
+
+.arabic {
+  color: white;
+  margin-top: 12px;
+  font-family: Traditional Arabic;
+  font-size: 18px;
+  direction:rtl;
+  line-height: 100%;
+  font-weight: bold;
+}
 
 .clear{
   clear: both;
