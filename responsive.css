@@ -2,8 +2,19 @@
 @media all and (max-width: 1000px){
 	.menu {
     display: none;
+    position: absolute;
+    margin-top: 64px;
+    background-color: #17202a;
+    z-index: 1;
+  }
+  .menu a{
+    width: 100%;
+    display: block;
   }
   .menu-icon {
+    display: block;
+  }
+  .container:hover .menu{
     display: block;
   }
   .xtra1-top h2 {
@@ -21,10 +32,21 @@
 @media all and (max-width: 670px){
   .menu {
 		display: none;
+    position: absolute;
+    margin-top: 64px;
+    background-color: #17202a;
+    z-index: 1;
 	}
+  .menu a{
+    width: 100%;
+    display: block;
+  }
 	.menu-icon {
 		display: block;
 	}
+  .container:hover .menu{
+    display: block;
+  }
 	.xtra1-top h2 {
 		width: 45%;
 	}
